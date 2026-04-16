@@ -1,31 +1,25 @@
+#pragma once
+
 #include <string>
-#include <vector>
-#include "Player.h"
 
-using namespace std;
+class Player;
 
-class Mission{
+class Mission {
     public:
-        Mission(string name, int difficulty, int rewardReputation, int rewardCredits, int energyCost);
-        bool attemptMission(const Player& player);
+        Mission(const std::string& name, int difficulty, int rewardReputation, int rewardCredits, int energyCost);
+        bool attemptMission(Player& player);
+
+        std::string getName() const;
+        int getDifficulty() const;
+        int getRewardReputation() const;
+        int getRewardCredits() const;
+        int getEnergyCost() const;
 
     private:
-        string name;
+        std::string name;
         int difficulty;
         int rewardReputation;
         int rewardCredits;
         int energyCost;
 };
 
-Mission::Mission(string name, int difficulty, int rewardReputation, int rewardCredits, int energyCost) {
-    this->name = name;
-    this->difficulty = difficulty;
-    this->rewardReputation = rewardReputation;
-    this->rewardCredits = rewardCredits;
-    this->energyCost = energyCost;
-}
-
-bool Mission::attemptMission(const Player& player) {
-    int power = (rand() % 10) + player.getSkillLevel() + player.getToolsCount() * 4;
-    return power >= difficulty;    
-}
