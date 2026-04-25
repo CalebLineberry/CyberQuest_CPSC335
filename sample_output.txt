@@ -1,0 +1,508 @@
+caleblineberry@Calebs-MacBook-Pro-2 CyberQuest_CPSC335 % g++ -o CyberQuest CyberQuest-CalebLineberry.cpp Actions.cpp Tools.cpp Player.cpp Mission.cpp
+caleblineberry@Calebs-MacBook-Pro-2 CyberQuest_CPSC335 % ./CyberQuest 
+===============================
+           CyberQuest    
+       By Caleb Lineberry   
+===============================
+
+Enter your name: Caleb
+
+=========Day 1 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 2
+
+==============================
+Training...
+New Skill Level: 10 (+8)
+New Energy Level: 88 (-12)
+Days used: 2 (+1)
+==============================
+
+=========Day 2 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 3
+
+==============================
+Caleb is Resting...
+New Energy Level: 103 (+15)
+Days used: 3 (+1)
+
+=========Day 3 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 4
+
+=============================
+Shop:
+1. Basic Firewall                 (Bonus: 4, Cost: 30 credits)
+2. Antivirus Software             (Bonus: 8, Cost: 60 credits)
+3. Intrusion Detection System     (Bonus: 12, Cost: 90 credits)
+4. Encryption Software            (Bonus: 16, Cost: 120 credits)
+5. Penetration Testing Tools      (Bonus: 20, Cost: 150 credits)
+6. AI Threat Intelligence         (Bonus: 25, Cost: 180 credits)
+Your Credits: 50
+
+>> Choose a tool to purchase (or 0 to go back): 1
+You purchased: Basic Firewall
+
+=========Day 3 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 1
+
+==============================
+Attempting mission: Virginia Cyber Range Labs
+Mission Difficulty: 10
+Energy Cost: 10
+
+------Calculating Power-------
+Player Skill Level: 10
+Power from Tools: 4
+Power from Luck: 7
+Total Power: 21
+
+Mission Success!
+Gained 10 Reputation and 20 Credits.
+Lost 10 Energy.
+
+=========Day 4 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 1
+
+==============================
+Caleb's Statistics:
+Energy: 93
+Skill Level: 10
+Reputation: 10
+Credits: 40
+Days Used: 4
+Tools: [Basic Firewall, ]
+Tool Power Bonus: 4
+Completed Missions: [Virginia Cyber Range Labs, ]
+Final Score: 183
+==============================
+
+=========Day 4 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 2
+
+==============================
+Training...
+New Skill Level: 18 (+8)
+New Energy Level: 81 (-12)
+Days used: 5 (+1)
+==============================
+
+=========Day 5 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 4
+
+=============================
+Shop:
+1. Basic Firewall                 (Bonus: 4, Cost: 30 credits)
+2. Antivirus Software             (Bonus: 8, Cost: 60 credits)
+3. Intrusion Detection System     (Bonus: 12, Cost: 90 credits)
+4. Encryption Software            (Bonus: 16, Cost: 120 credits)
+5. Penetration Testing Tools      (Bonus: 20, Cost: 150 credits)
+6. AI Threat Intelligence         (Bonus: 25, Cost: 180 credits)
+Your Credits: 40
+
+>> Choose a tool to purchase (or 0 to go back): 0
+
+=========Day 5 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 2
+
+==============================
+Attempting mission: Security+ Exam
+Mission Difficulty: 20
+Energy Cost: 15
+
+------Calculating Power-------
+Player Skill Level: 18
+Power from Tools: 4
+Power from Luck: 9
+Total Power: 31
+
+Mission Success!
+Gained 20 Reputation and 40 Credits.
+Lost 15 Energy.
+
+=========Day 6 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 3
+
+==============================
+Caleb is Resting...
+New Energy Level: 81 (+15)
+Days used: 7 (+1)
+
+=========Day 7 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 2
+
+==============================
+Attempting mission: Security+ Exam
+Mission Difficulty: 20
+Energy Cost: 15
+
+------Calculating Power-------
+Player Skill Level: 18
+Power from Tools: 4
+Power from Luck: 3
+Total Power: 25
+
+Mission Success!
+Gained 20 Reputation and 40 Credits.
+Lost 15 Energy.
+
+=========Day 8 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 1
+
+==============================
+Caleb's Statistics:
+Energy: 66
+Skill Level: 18
+Reputation: 50
+Credits: 120
+Days Used: 8
+Tools: [Basic Firewall, ]
+Tool Power Bonus: 4
+Completed Missions: [Virginia Cyber Range Labs, Security+ Exam, Security+ Exam, ]
+Final Score: 364
+==============================
+
+=========Day 8 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 4
+
+=============================
+Shop:
+1. Basic Firewall                 (Bonus: 4, Cost: 30 credits)
+2. Antivirus Software             (Bonus: 8, Cost: 60 credits)
+3. Intrusion Detection System     (Bonus: 12, Cost: 90 credits)
+4. Encryption Software            (Bonus: 16, Cost: 120 credits)
+5. Penetration Testing Tools      (Bonus: 20, Cost: 150 credits)
+6. AI Threat Intelligence         (Bonus: 25, Cost: 180 credits)
+Your Credits: 120
+
+>> Choose a tool to purchase (or 0 to go back): 4
+You purchased: Encryption Software
+
+=========Day 8 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 3
+
+==============================
+Attempting mission: Vulnerable Network Analysis
+Mission Difficulty: 30
+Energy Cost: 20
+
+------Calculating Power-------
+Player Skill Level: 18
+Power from Tools: 20
+Power from Luck: 8
+Total Power: 46
+
+Mission Success!
+Gained 30 Reputation and 60 Credits.
+Lost 20 Energy.
+
+=========Day 9 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 1
+
+==============================
+Caleb's Statistics:
+Energy: 46
+Skill Level: 18
+Reputation: 80
+Credits: 60
+Days Used: 9
+Tools: [Basic Firewall, Encryption Software, ]
+Tool Power Bonus: 20
+Completed Missions: [Virginia Cyber Range Labs, Security+ Exam, Security+ Exam, Vulnerable Network Analysis, ]
+Final Score: 364
+==============================
+
+=========Day 9 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 4
+
+=============================
+Shop:
+1. Basic Firewall                 (Bonus: 4, Cost: 30 credits)
+2. Antivirus Software             (Bonus: 8, Cost: 60 credits)
+3. Intrusion Detection System     (Bonus: 12, Cost: 90 credits)
+4. Encryption Software            (Bonus: 16, Cost: 120 credits)
+5. Penetration Testing Tools      (Bonus: 20, Cost: 150 credits)
+6. AI Threat Intelligence         (Bonus: 25, Cost: 180 credits)
+Your Credits: 60
+
+>> Choose a tool to purchase (or 0 to go back): 2
+You purchased: Antivirus Software
+
+=========Day 9 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 0
+
+
+=========Day 9 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 1
+
+==============================
+Caleb's Statistics:
+Energy: 46
+Skill Level: 18
+Reputation: 80
+Credits: 0
+Days Used: 9
+Tools: [Basic Firewall, Encryption Software, Antivirus Software, ]
+Tool Power Bonus: 28
+Completed Missions: [Virginia Cyber Range Labs, Security+ Exam, Security+ Exam, Vulnerable Network Analysis, ]
+Final Score: 304
+==============================
+
+=========Day 9 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 5
+
+==============================
+Attempting mission: Advanced Persistent Threat
+Mission Difficulty: 50
+Energy Cost: 30
+
+------Calculating Power-------
+Player Skill Level: 18
+Power from Tools: 28
+Power from Luck: 0
+Total Power: 46
+
+Mission Failed!
+Lost 30 Energy.
+
+=========Day 10 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 3
+
+==============================
+Caleb is Resting...
+New Energy Level: 31 (+15)
+Days used: 11 (+1)
+
+=========Day 11 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 2
+
+==============================
+Training...
+New Skill Level: 26 (+8)
+New Energy Level: 19 (-12)
+Days used: 12 (+1)
+==============================
+
+=========Day 12 of 12==========
+1. View Stats
+2. Train
+3. Rest
+4. Visit Shop
+5. Attempt Mission
+6. Exit Game
+Choose an Action: 5
+
+=============================
+Missions:
+1. Virginia Cyber Range Labs(Difficulty: 10, Reputation: 10, Credits: 20, Energy Cost: 10)
+2. Security+ Exam      (Difficulty: 20, Reputation: 20, Credits: 40, Energy Cost: 15)
+3. Vulnerable Network Analysis(Difficulty: 30, Reputation: 30, Credits: 60, Energy Cost: 20)
+4. Ransomware Response (Difficulty: 40, Reputation: 40, Credits: 80, Energy Cost: 25)
+5. Advanced Persistent Threat(Difficulty: 50, Reputation: 50, Credits: 100, Energy Cost: 30)
+6. Doomsday Zero-Day Scenario(Difficulty: 60, Reputation: 60, Credits: 120, Energy Cost: 35)
+
+>> Choose a mission to attempt (or 0 to go back): 5
+
+==============================
+Attempting mission: Advanced Persistent Threat
+Mission Difficulty: 50
+Energy Cost: 30
+
+------Calculating Power-------
+Player Skill Level: 26
+Power from Tools: 28
+Power from Luck: 2
+Total Power: 56
+
+Mission Success!
+Gained 50 Reputation and 100 Credits.
+Lost 30 Energy.
+
+Game Over!
+Final Score: 475
+Rank: Cybersecurity Legend
+caleblineberry@Calebs-MacBook-Pro-2 CyberQuest_CPSC335 % 

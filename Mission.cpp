@@ -34,7 +34,8 @@ bool Mission::attemptMission(Player& player) {
     std::cout << "==============================" << std::endl;
     std::cout << "Attempting mission: " << name << std::endl;
     std::cout << "Mission Difficulty: " << difficulty << std::endl;
-
+    std::cout << "Energy Cost: " << energyCost << std::endl;
+    std::cout << std::endl;
     std::cout << "------Calculating Power-------" << std::endl;
 
     std::cout << "Player Skill Level: " << player.getSkillLevel() << std::endl;
@@ -54,19 +55,22 @@ bool Mission::attemptMission(Player& player) {
     player.addDay();
 
     if(power >= difficulty){
-        std::cout << "Mission Success!";
+        std::cout << std::endl;
+        std::cout << "Mission Success!" << std::endl;
         std::cout << "Gained " << rewardReputation << " Reputation and " << rewardCredits << " Credits." << std::endl;
         std::cout << "Lost " << energyCost << " Energy." << std::endl;
         player.updateReputation(rewardReputation);
         player.updateCredits(rewardCredits);
         player.updateEnergy(-energyCost);
         player.addCompletedMission(name);
-        std::cout << "==============================" << std::endl;
+
         return true;
     } else {
-        std::cout << "Mission Failed! Lost " << energyCost << " Energy." << std::endl;
+        std::cout << std::endl;
+        std::cout << "Mission Failed!" << std::endl;
+        std::cout << "Lost " << energyCost << " Energy." << std::endl;
         player.updateEnergy(-energyCost);
-        std::cout << "==============================" << std::endl;
+
         return false;
     }    
 }

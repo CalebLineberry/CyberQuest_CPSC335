@@ -54,12 +54,18 @@ void Player::addDay() {
 }
 
 void Player::train() {
+    if (energy < 12) {
+        cout << "==============================" << endl;
+        cout << "Not enough energy to train! Consider resting." << endl;
+        cout << "==============================" << endl;
+        return;
+    }
     skillLevel += 8;
     energy -= 12;
     daysUsed += 1;
     cout << "==============================" << endl;
     cout << "Training..." << endl;
-    cout << "New Skill Level: " << skillLevel << " (+8)\n New Energy Level: " << energy << " (-12)\n Days used: " << daysUsed << " (+1)" << endl;
+    cout << "New Skill Level: " << skillLevel << " (+8)\nNew Energy Level: " << energy << " (-12)\nDays used: " << daysUsed << " (+1)" << endl;
     cout << "==============================" << endl;
 }
 
@@ -68,9 +74,7 @@ void Player::rest() {
     daysUsed += 1;
     cout << "==============================" << endl;
     cout << name << " is Resting..." << endl;
-    cout << "New Energy Level: " << energy << " (+15)\n Days used: " << daysUsed << " (+1)" << endl;
-    
-    cout << "==============================" << endl;
+    cout << "New Energy Level: " << energy << " (+15)\nDays used: " << daysUsed << " (+1)" << endl;
 }
 
 void Player::showStatistics() {
@@ -81,17 +85,21 @@ void Player::showStatistics() {
     cout << "Reputation: " << reputation << endl;
     cout << "Credits: " << credits << endl;
     cout << "Days Used: " << daysUsed << endl;
-    cout << "Tools: ";
+    cout << "Tools: [";
+    int totalToolBonus = 0;
     for (const auto& tool : tools) {
-        cout << tool.getName() << " ";
+        cout << tool.getName() << ", ";
+        totalToolBonus += tool.getBonus();
     }
-    cout << endl;
-    cout << "Completed Missions: ";
+    cout << "]" << endl;
+    cout << "Tool Power Bonus: " << totalToolBonus << endl;
+    cout << "Completed Missions: [";
     for (const auto& missionName : completedMissions) {
-        cout << missionName << " ";
+        cout << missionName << ", ";
     }
-    cout << endl;
-
+    cout << "]" << endl;
+    cout << "Final Score: " << getFinalScore() << endl;
+    cout << "==============================" << endl;
 }
 
 int Player::getFinalScore() const {
